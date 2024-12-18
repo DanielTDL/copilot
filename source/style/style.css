@@ -28,11 +28,16 @@ header {
   margin-left: 20px;
 }
 
-article h2 {
-  color: #4caf50;
+article h2,
+.section h3 {
+  color: #ffffff; /* White color for better readability */
 }
 
-.subchapter {
+.subchapter h3 {
   font-weight: bold;
-  margin-top: 20px;
+  color: #4caf50; /* Green color for subchapter titles */
+}
+
+.subchapter p {
+  color: #333333; /* Darker text color for readability */
 }
